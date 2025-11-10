@@ -3,6 +3,8 @@ import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { createServerClient } from "@/lib/supabase-server";
 
+export const dynamic = 'force-dynamic';
+
 /**
  * GET /api/my-vocabulary/practice
  * Fetches vocabulary items due for practice with their exercises

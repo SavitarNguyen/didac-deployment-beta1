@@ -6,6 +6,8 @@ import { incrementProgress } from "@/lib/db/progress"
 import { selectVocabularyForLearning } from "@/lib/ielts/vocabularySelector"
 import { IELTSFeedback } from "@/lib/types/ielts"
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: Request) {
   try {
     const session = await getServerSession(authOptions)

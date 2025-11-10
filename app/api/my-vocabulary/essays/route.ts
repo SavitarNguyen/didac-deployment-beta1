@@ -3,6 +3,9 @@ import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { createServerClient } from "@/lib/supabase-server";
 
+// Force dynamic rendering for this route as it uses session/headers
+export const dynamic = 'force-dynamic';
+
 /**
  * GET endpoint to fetch unique essay sources from user's saved vocabulary
  */

@@ -4,6 +4,8 @@ import { authOptions } from "@/app/api/auth/[...nextauth]/route"
 import { getFlashcardById, updateFlashcard, deleteFlashcard } from "@/lib/db/flashcards"
 import { incrementProgress } from "@/lib/db/progress"
 
+export const dynamic = 'force-dynamic';
+
 export async function PUT(request: Request, { params }: { params: { id: string } }) {
   try {
     const session = await getServerSession(authOptions)

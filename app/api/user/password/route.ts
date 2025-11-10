@@ -4,6 +4,8 @@ import { authOptions } from "@/app/api/auth/[...nextauth]/route"
 import { createServerClient } from "@/lib/supabase-server"
 import bcrypt from "bcryptjs"
 
+export const dynamic = 'force-dynamic';
+
 export async function PUT(request: Request) {
   try {
     const session = await getServerSession(authOptions)
