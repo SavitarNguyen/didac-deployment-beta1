@@ -4,6 +4,8 @@ import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { createServerClient } from "@/lib/supabase-server";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
+export const dynamic = 'force-dynamic';
+
 const apiKey = process.env.GEMINI_API_KEY || "";
 const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 const genAI = new GoogleGenerativeAI(apiKey);

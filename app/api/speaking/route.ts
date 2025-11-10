@@ -4,6 +4,8 @@ import { authOptions } from "@/app/api/auth/[...nextauth]/route"
 import { getSpeakingPracticesByUserId, createSpeakingPractice } from "@/lib/db/speaking"
 import { incrementProgress } from "@/lib/db/progress"
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: Request) {
   try {
     const session = await getServerSession(authOptions)

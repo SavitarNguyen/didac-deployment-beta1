@@ -3,6 +3,8 @@ import { getServerSession } from "next-auth"
 import { authOptions } from "@/app/api/auth/[...nextauth]/route"
 import { createServerClient } from "@/lib/supabase-server"
 
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   try {
     const supabase = createServerClient()
