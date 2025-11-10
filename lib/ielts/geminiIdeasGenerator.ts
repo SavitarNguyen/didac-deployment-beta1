@@ -343,7 +343,7 @@ For Problem/Solution: "This essay will explore the problems and propose solution
 
 ---
 
-**Body Paragraph 1** [Target: 100-150 words when written out]
+**Body Paragraph 1** [Target: 100 words when written out]
 
 [Label based on essay type: "Arguments Supporting [View A]" / "Main Arguments" / "Advantages" / "Problems" / "Answer to Question 1"]
 
@@ -364,7 +364,7 @@ Topic sentence: [one clear main point directly addressing the question]
 
 ---
 
-**Body Paragraph 2** [Target: 100-150 words - MUST MATCH Body 1 depth]
+**Body Paragraph 2** [Target: 100 words - MUST MATCH Body 1 depth]
 
 [Label based on essay type: "Arguments Supporting [View B]" / "Additional Support + Counter-argument" / "Disadvantages" / "Solutions" / "Answer to Question 2"]
 
@@ -484,7 +484,7 @@ function getVocabularyGuidelines(level: '5.0_or_below' | '5.5_to_6.5' | '7.0_or_
     case '5.5_to_6.5':
       return `**Band 5.5-6.5 - USE NATURAL, COMMON ACADEMIC VOCABULARY:**
 - Keep tone NATURAL, ACADEMIC, and EASY TO UNDERSTAND
-- Use common, accurate vocabulary - NOT advanced or C2 words
+- Use common, accurate vocabulary - NOT advanced or C1, C2 words
 - ✅ Use: affordable, accessible, expenses, learners, backgrounds, advantages, disadvantages, opportunities, challenges, develop, provide, support, improve, reduce, facilitate, enhance, individuals, substantial, contemporary, address, tackle, implement, benefit, drawback, aspect, factor, issue, trend, impact, contribute, enable, foster, promote
 - ❌ Avoid: engender, ameliorate, proliferate, ubiquitous, paradigm, juxtapose, exemplify excessively
 - Use NATURAL COLLOCATIONS: pay for expenses, social backgrounds, affordable and accessible, future careers, practical skills, real-world situations, financial burden, equal opportunities, address the issue, foster development
